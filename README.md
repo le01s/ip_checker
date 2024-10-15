@@ -17,6 +17,16 @@ This Python script allows you to retrieve detailed information about an IP addre
 You can install the required libraries using pip:
 
 ```bash
-pip install requests prettytable
+pip install -r requirements.txt
 ```
 
+
+Run the script
+
+```bash
+python3 ip.py 8.8.8.8
+```
+or
+```bash
+python3 ip.py google.com
+```
